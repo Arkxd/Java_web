@@ -22,11 +22,6 @@
 </head>
 <body>
 <%
-    Date date = new Date();
-    SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-    String today = dateFormat.format(date);
-%>
-<%
     out.println(print());
     out.println("<br>");
 %>
@@ -37,6 +32,8 @@
         }
         out.print("<br>");
     }
+    out.println("<br>");
 %>
+<%@include file="date.jsp"%>
 </body>
 </html>
