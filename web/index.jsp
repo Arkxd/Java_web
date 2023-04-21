@@ -1,18 +1,17 @@
-<%@ page import="java.util.Date" %>
-<%@ page import="java.text.SimpleDateFormat" %><%--
+<%--
   Created by IntelliJ IDEA.
   User: Arkxd
   Date: 2023/4/20
   Time: 8:59
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8"%>
 <html>
 <head>
     <title>Title</title>
     <%!
         public int print() {
-            int a = 1, b = 10, sum = 0;
+            int sum = 0;
             for (int i=1; i<=10; i++) {
                 sum += i;
             }
@@ -39,15 +38,18 @@
 
 <form method="post" action="Max.jsp">
     <br>
+    <label>
     Max(
     <input type="text" name="max1" maxlength="5">,
     <input type="text" name="max2" maxlength="5">,
     <input type="text" name="max3" maxlength="5">,
     <input type="submit" value="提交">
     <br><br>
+    </label>
 </form>
 
 <form method="post" action="题目.jsp">
+    <label>
     题目1：以下那个诗人是唐朝的是<br>
     <input type="radio" name="q1" value="a">李白
     <input type="radio" name="q1" value="b">苏轼
@@ -62,7 +64,17 @@
     <br>
     <input type="submit" value="提交">
     <br><br>
+    </label>
 </form>
 
+<form method="post" action="checkbox.jsp">
+    <label>
+        喜欢的水果：<br>
+        <input type="checkbox" name="apple">苹果
+        <input type="checkbox" name="banana">香蕉
+        <input type="checkbox" name="orange">橘子
+        <br>
+    </label>
+</form>
 </body>
 </html>
