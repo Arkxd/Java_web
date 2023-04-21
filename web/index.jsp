@@ -35,5 +35,32 @@
     out.println("<br>");
 %>
 <%@include file="date.jsp"%>
+
+
+<form method="post" action="Max.jsp">
+    <br>
+    Max(
+    <input type="text" name="max1" maxlength="5">,
+    <input type="text" name="max2" maxlength="5">,
+    <input type="text" name="max3" maxlength="5">,
+    <input type="submit" value="提交">
+    <br>
+</form>
+
+<form method="post" action="题目.jsp">
+    题目1：以下那个诗人是唐朝的是<br>
+    <input type="radio" name="q1" value="a">李白
+    <input type="radio" name="q1" value="b">苏轼
+    <input type="radio" name="q1" value="c">辛弃疾
+    <input type="radio" name="q1" value="d">李清照
+    <br>
+    题目2：以下不属于四大名著作者的是<br>
+    <input type="radio" name="q2" value="a">罗贯中
+    <input type="radio" name="q2" value="b">吴承恩
+    <input type="radio" name="q2" value="c">曹雪芹
+    <input type="radio" name="q2" value="d">司马迁
+    <br>
+</form>
+
 </body>
 </html>
