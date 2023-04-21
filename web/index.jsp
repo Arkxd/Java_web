@@ -60,6 +60,8 @@
     <input type="radio" name="q2" value="c">曹雪芹
     <input type="radio" name="q2" value="d">司马迁
     <br>
+    <input type="submit" value="提交">
+    <br><br>
 </form>
 
 </body>
