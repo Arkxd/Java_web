@@ -23,7 +23,7 @@
 <body>
 <%
     out.println(print());
-    out.println("<br>");
+    out.println("<br><br>");
 %>
 <%
     for (int i = 1; i < 10; i++) {
