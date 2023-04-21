@@ -44,7 +44,7 @@
     <input type="text" name="max2" maxlength="5">,
     <input type="text" name="max3" maxlength="5">,
     <input type="submit" value="提交">
-    <br>
+    <br><br>
 </form>
 
 <form method="post" action="题目.jsp">
