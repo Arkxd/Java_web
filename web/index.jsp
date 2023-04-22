@@ -74,6 +74,8 @@
         <input type="checkbox" name="banana">香蕉
         <input type="checkbox" name="orange">橘子
         <br>
+        <input type="submit" value="提交">
+        <br><br>
     </label>
 </form>
 </body>
