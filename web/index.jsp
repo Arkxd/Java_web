@@ -88,5 +88,16 @@
 //        response.sendRedirect("afternoon.jsp");
 //    }
 %>
+
+<form method="post" action="sendRedirect.jsp">
+    <label>
+        <select name="jump" onchange="submit()">
+            <option value="-1"></option>
+            <option value="1">青岛工学院</option>
+            <option value="2">中国海洋大学</option>
+            <option value="3">青岛大学</option>
+        </select>
+    </label>
+</form>
 </body>
 </html>
