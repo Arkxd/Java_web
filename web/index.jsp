@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.util.Calendar" %><%--
   Created by IntelliJ IDEA.
   User: Arkxd
   Date: 2023/4/20
@@ -78,5 +78,15 @@
         <br><br>
     </label>
 </form>
+
+<%
+    Calendar calendar = Calendar.getInstance();
+    int hours = calendar.get(Calendar.HOUR_OF_DAY);
+//    if (hours < 12) {
+//        response.sendRedirect("morning.jsp");
+//    } else {
+//        response.sendRedirect("afternoon.jsp");
+//    }
+%>
 </body>
 </html>
