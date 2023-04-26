@@ -99,5 +99,36 @@
         </select>
     </label>
 </form>
+
+<form method="get" action="exam.jsp">
+    <span style="">考试系统</span>
+    <label>
+        请输入姓名：
+        <input type="text" name="name">
+        <br>
+        请输入考试号：
+        <input type="text" name="num">
+    </label>
+    <br>
+    1、IP协议对应OSI协议中的哪一层？
+    <br>
+    <label>
+        <input name="q1" type="radio" value="1">会话层
+        <input name="q1" type="radio" value="2">传输层
+        <input name="q1" type="radio" value="3">数据链路层
+        <input name="q1" type="radio" value="4">网络层
+        <br>
+    </label>
+    2、JSP文件中
+    <br>
+    <label>
+        <input name="q2" type="radio" value="1">VC++
+        <input name="q2" type="radio" value="2">Java
+        <input name="q2" type="radio" value="3">Qbasic
+        <input name="q2" type="radio" value="4">JavaScript
+        <br>
+    </label>
+    <input type="submit" value="提交">
+</form>
 </body>
 </html>
