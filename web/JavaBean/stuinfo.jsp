@@ -11,6 +11,9 @@
     <title>Title</title>
 </head>
 <body>
+<%
+    request.setCharacterEncoding("utf-8");
+%>
 <jsp:useBean id="student" class="JavaBean.Student"/>
 <div>
     <ul>
